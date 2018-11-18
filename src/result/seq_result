@@ -1,0 +1,28 @@
+Number of Test: 1000
+Length: 2048 bits
+Time for SOS: 0.003005
+Time for CIOS: 0.002155
+Time for FIOS: 0.002447
+Time for FIOS (Modified): 0.001839
+
+Number of Test: 1000
+Length: 2048 bits
+Time for SOS: 0.003236
+Time for CIOS: 0.002249
+Time for FIOS: 0.002379
+Time for FIOS (Modified): 0.001862
+
+Number of Test: 1000
+Length: 2048 bits
+Time for SOS: 0.003126
+Time for CIOS: 0.002433
+Time for FIOS: 0.002496
+Time for FIOS (Modified): 0.001790
+
+Number of Test: 1000
+Length: 2048 bits
+Time for SOS: 0.003116
+Time for CIOS: 0.002307
+Time for FIOS: 0.002525
+Time for FIOS (Modified): 0.001887
+

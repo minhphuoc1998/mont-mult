@@ -1,0 +1,24 @@
+Number of Test: 1000
+Length: 512 bits
+Number of threads: 2
+Time for Naive pFIOS: 0.000404
+Time for New pFIOS: 0.001536
+
+Number of Test: 1000
+Length: 1024 bits
+Number of threads: 2
+Time for Naive pFIOS: 0.000754
+Time for New pFIOS: 0.001082
+
+Number of Test: 1000
+Length: 1536 bits
+Number of threads: 2
+Time for Naive pFIOS: 0.001334
+Time for New pFIOS: 0.002001
+
+Number of Test: 1000
+Length: 2048 bits
+Number of threads: 2
+Time for Naive pFIOS: 0.002231
+Time for New pFIOS: 0.003291
+

@@ -1,0 +1,20 @@
+Number of Test: 1000
+Length: 512 bits
+Number of threads: 2
+Time for PSHS from 1: 0.003165
+Time for PSHS from 0: 0.003024
+Number of Test: 1000
+Length: 1024 bits
+Number of threads: 2
+Time for PSHS from 0: 0.005000
+Time for PSHS from 1: 0.004987
+Number of Test: 1000
+Length: 1536 bits
+Number of threads: 2
+Time for PSHS from 1: 0.005953
+Time for PSHS from 0: 0.005816
+Number of Test: 1000
+Length: 2048 bits
+Number of threads: 2
+Time for PSHS from 0: 0.008526
+Time for PSHS from 1: 0.008610
