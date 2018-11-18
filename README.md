@@ -1,5 +1,9 @@
 # Montgomery Multiplication
-This implementation depends on the paper "THE PERFORMANCE OF CRYPTOGRAPHIC ALGORITHMS IN THE AGE OF PARALLEL COMPUTING"[1]
+This project contains the implementation of some Sequential Montgomery Multiplication[1] (SOS, CIOS, FIOS) and Parallel Montgomery Multiplication using OpenMP and MPI.
+
+The implementation depends on the paper:
+
+"THE PERFORMANCE OF CRYPTOGRAPHIC ALGORITHMS IN THE AGE OF PARALLEL COMPUTING"[1]
 
 ## Installation
 Downloading the source.
@@ -40,7 +44,7 @@ Various length testing
 ```
 python test.py <type_test> <length_of_number> <number_of_test> <num_threads>
 ```
-In which ```<type_test``` is one of ```seq``` (sequential), ```omp``` (openmp), ```mpi``` (mpi), ```all``` (all types).
+In which ```<type_test>``` is one of ```seq``` (sequential), ```omp``` (openmp), ```mpi``` (mpi), ```all``` (all types).
 
 ### Example
 Sequential testing against 512 to 4096 bits length
@@ -55,6 +59,7 @@ python test.py seq 64 10000 2
 
 ## Result
 Check ```src/result``` for the result of testing
+
 Sequential algorithm
 ```
 Number of Test: 1000
@@ -100,3 +105,7 @@ Number of threads: 2
 Time for Naive pFIOS: 0.000754
 Time for New pFIOS: 0.001082
 ```
+
+# References
+[1] https://en.wikipedia.org/wiki/Montgomery_modular_multiplication
+[2] http://www.macs.hw.ac.uk/cs/msc_dissertations/2012/9.pdf
