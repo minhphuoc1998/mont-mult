@@ -1,28 +1,28 @@
 Number of Test: 1000
-Length: 2048 bits
-Time for SOS: 0.003005
-Time for CIOS: 0.002155
-Time for FIOS: 0.002447
-Time for FIOS (Modified): 0.001839
+Length: 512 bits
+Time for SOS: 0.000460
+Time for CIOS: 0.000235
+Time for FIOS: 0.000195
+Time for FIOS (Modified): 0.000159
+
+Number of Test: 1000
+Length: 1024 bits
+Time for SOS: 0.000970
+Time for CIOS: 0.000591
+Time for FIOS: 0.000632
+Time for FIOS (Modified): 0.000520
+
+Number of Test: 1000
+Length: 1536 bits
+Time for SOS: 0.001829
+Time for CIOS: 0.001180
+Time for FIOS: 0.001352
+Time for FIOS (Modified): 0.001079
 
 Number of Test: 1000
 Length: 2048 bits
-Time for SOS: 0.003236
-Time for CIOS: 0.002249
-Time for FIOS: 0.002379
-Time for FIOS (Modified): 0.001862
-
-Number of Test: 1000
-Length: 2048 bits
-Time for SOS: 0.003126
-Time for CIOS: 0.002433
-Time for FIOS: 0.002496
-Time for FIOS (Modified): 0.001790
-
-Number of Test: 1000
-Length: 2048 bits
-Time for SOS: 0.003116
-Time for CIOS: 0.002307
-Time for FIOS: 0.002525
-Time for FIOS (Modified): 0.001887
+Time for SOS: 0.003229
+Time for CIOS: 0.002392
+Time for FIOS: 0.003617
+Time for FIOS (Modified): 0.002837
 

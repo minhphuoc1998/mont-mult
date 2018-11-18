@@ -40,7 +40,7 @@ def seq_test(_length, _num):
 	empty(SEQ)
 	for length in range(4, _length + 1, 4):
 		gen(_num, length)
-		comp = [BIN_DEST + TEST[SEQ], str(_length), str(_num), GEN_DEST + GEN_NAME]
+		comp = [BIN_DEST + TEST[SEQ], str(length), str(_num), GEN_DEST + GEN_NAME]
 		print " ".join(["TESTING", str(_num), "TESTCASES WITH", str(length << 7), "BITS LENGTH"])
 		os.system(" ".join(comp) + " >> " + RES_DEST + RES[SEQ])
 	print "********************************************"
@@ -78,7 +78,7 @@ def all_test():
 
 def main():
 	if len(sys.argv) < 4:
-		print "Usage: python seqtest.py <type_test> <length_of_number> <number_of_test> <num_threads>"
+		print "Usage: python test.py <type_test> <length_of_number> <number_of_test> <num_threads>"
 	else:
 		_type = sys.argv[1]
 		_length = int(sys.argv[2])
