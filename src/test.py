@@ -1,4 +1,3 @@
-NUM_TEST = 100000
 GEN_DEST = "./sample_data/"
 GEN_FILE = "gentest.py"
 GEN_NAME = "input"

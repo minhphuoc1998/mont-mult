@@ -3,7 +3,7 @@ This project contains the implementation of some Sequential Montgomery Multiplic
 
 The implementation depends on the paper:
 
-"THE PERFORMANCE OF CRYPTOGRAPHIC ALGORITHMS IN THE AGE OF PARALLEL COMPUTING"[1]
+"THE PERFORMANCE OF CRYPTOGRAPHIC ALGORITHMS IN THE AGE OF PARALLEL COMPUTING"[2]
 
 ## Installation
 Downloading the source.
@@ -108,4 +108,5 @@ Time for New pFIOS: 0.001082
 
 # References
 [1] https://en.wikipedia.org/wiki/Montgomery_modular_multiplication
+
 [2] http://www.macs.hw.ac.uk/cs/msc_dissertations/2012/9.pdf
