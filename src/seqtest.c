@@ -34,8 +34,8 @@ int main(int argc, char **argv)
 
 	FILE *file;
 	file = fopen(DEST, "r");
-
-	for (int j = 0; j < NUM_TEST; j ++)
+	int j;
+	for (j = 0; j < NUM_TEST; j ++)
 	{
 		readi(file, (hugeInt) &nk[j], WL);
 		readi(file, (hugeInt) &ak[j], WL);
@@ -50,7 +50,7 @@ int main(int argc, char **argv)
 	
 	// Montgomery SOS
 	t = clock();
-	for (int j = 0; j < NUM_TEST; j ++)
+	for (j = 0; j < NUM_TEST; j ++)
 	{
 		monProSOS(rk[j], ak[j], bk[j], nk[j], n0p[j], WL);
 	}
@@ -60,7 +60,7 @@ int main(int argc, char **argv)
 	
 	// Montgomery CIOS
 	t = clock();
-	for (int j = 0; j < NUM_TEST; j ++)
+	for (j = 0; j < NUM_TEST; j ++)
 	{
 		monProCIOS(rk[j], ak[j], bk[j], nk[j], n0p[j], WL);
 	}
@@ -70,7 +70,7 @@ int main(int argc, char **argv)
 	
 	// Montgomery FIOS
 	t = clock();
-	for (int j = 0; j < NUM_TEST; j ++)
+	for (j = 0; j < NUM_TEST; j ++)
 	{
 		monProFIOS(rk[j], ak[j], bk[j], nk[j], n0p[j], WL);
 	}
@@ -80,7 +80,7 @@ int main(int argc, char **argv)
 	
 	// Montgomery FIOS Modified
 	t = clock();
-	for (int j = 0; j < NUM_TEST; j ++)
+	for (j = 0; j < NUM_TEST; j ++)
 	{
 		monProFIOSm(rk[j], ak[j], bk[j], nk[j], n0p[j], WL);
 	}

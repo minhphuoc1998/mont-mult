@@ -5,7 +5,8 @@
 
 int readi(FILE *file, hugeInt buf, int size)
 {
-    for (int i = 0; i < size; i ++)
+	int i;
+    for (i = 0; i < size; i ++)
     {
         fscanf(file, "%x", &buf[i]);
     }

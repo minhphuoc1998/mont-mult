@@ -34,8 +34,8 @@ int main(int argc, char **argv)
 	
 	FILE *file;
 	file = fopen(DEST, "r");
-
-	for (int j = 0; j < NUM_TEST; j ++)
+	int j;
+	for (j = 0; j < NUM_TEST; j ++)
 	{
 		readi(file, (hugeInt) &nk[j], WL);
 		readi(file, (hugeInt) &ak[j], WL);
@@ -51,7 +51,7 @@ int main(int argc, char **argv)
 
 	// Montgomery Naive Parallel FIOS
 	t = clock();
-	for (int j = 0; j < NUM_TEST; j ++)
+	for (j = 0; j < NUM_TEST; j ++)
 	{
 		monProPFIOS(rk[j], ak[j], bk[j], nk[j], n0p[j], WL, NUM_THREADS);
 	}
@@ -61,7 +61,7 @@ int main(int argc, char **argv)
 	
 	// Montgomery New Parallel FIOS
 	t = clock();
-	for (int j = 0; j < NUM_TEST; j ++)
+	for (j = 0; j < NUM_TEST; j ++)
 	{
 		monProPFIOSn(rk[j], ak[j], bk[j], nk[j], n0p[j], WL, NUM_THREADS);
 	}
